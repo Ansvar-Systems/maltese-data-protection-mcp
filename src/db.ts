@@ -1,9 +1,9 @@
 /**
- * SQLite database access layer for the CNIL MCP server.
+ * SQLite database access layer for the IDPC MCP server.
  *
  * Schema:
- *   - decisions    — CNIL deliberations, sanctions, and mises en demeure
- *   - guidelines   — CNIL guidance documents, recommandations, and referentiels
+ *   - decisions    — IDPC decisions, sanctions, warnings, and reprimands
+ *   - guidelines   — IDPC guidance documents, recommendations, and FAQs
  *   - topics       — controlled vocabulary for data protection topics
  *
  * FTS5 virtual tables back full-text search on decisions and guidelines.
